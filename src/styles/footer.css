@@ -1,0 +1,129 @@
+.footer {
+    width: 100%;
+    z-index: -1000;
+      background-color: #e9004ada;
+      color: #fff;
+      text-align: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      height: auto;
+      padding-bottom: 8px;
+  
+  }
+  
+  .footer-logo {
+      width: 33%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+  
+  .footer-logo img {
+      width: 170px;
+      /* height: 100px; */
+  }
+  .address *{
+      margin: 2px;
+  }
+  .address {
+      width: 33%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+  }
+  
+  .social {
+      width: 33%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+  }
+  .social h2{
+      margin:0;
+  }
+  
+  .social-links {
+      /* width: 33%; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+  
+  }
+  
+  .social-links a {
+      margin: 10px;
+  }
+  
+   .social-icons {
+      margin-top: 5px;
+  }
+  
+  .social-icons a {
+      text-decoration: none;
+      font-size: 30px;
+      margin-right: 15px;
+      color: #ffffff;
+      display: inline-block;
+      transition: color 0.5s, transform 0.5s;
+  }
+  
+  .social-icons a:hover {
+      color: #000000;
+      transform: translateY(-5px);
+  }
+  
+  @media screen and (max-width: 768px) {
+      .footer {
+          flex-direction: column;
+          padding: 0;
+          padding-bottom: 1vh;
+      }
+      .footerflex{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+      }
+      .footer-logo img{
+          width: 130px;
+          max-height: 60px;
+          object-fit: cover;
+      }
+      .footer *{
+          padding: 0;
+          margin-top: 0.2vh;
+          margin-bottom: 0;
+      }
+  
+      .footer-logo {
+          width: 100%;
+      }
+  
+      .address {
+          width: 100%;
+          margin-bottom: 0.5vh;
+          font-size: small;
+      }
+  
+      .social {
+          width: 100%;
+      }
+      .social h2{
+          font-size: 20px;
+      }
+      .footer-logo {
+          width: 100%;
+      }
+      
+  }
+  
