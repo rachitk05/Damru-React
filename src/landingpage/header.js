@@ -20,7 +20,7 @@ const Header = () => {
                     <li className="nav__item" id="homeid"><Link to="/" className="nav__link">Home</Link></li>
                     {/* <li className="nav__item"><a href="https://rishihood.edu.in/" className="nav__link" id="aboutheader">About</a></li> */}
                     <li className="nav__item" id="homeid"><a href="/events" className="nav__link">Events</a></li>
-                    <li className="nav__item" id="homeid"><a href="/ca-portal" className="nav__link">CA Portal</a></li>
+                    <li className="nav__item" id="homeid"><a href="/cap-portal" className="nav__link">CA Portal</a></li>
                     <li className="nav__item" id="homeid"><a href="/faqs" className="nav__link">FAQs</a></li>
                     <li className="nav__item" id="homeid"><a href="/contact-us" className="nav__link">Contact Us</a></li>
                 </ul>
