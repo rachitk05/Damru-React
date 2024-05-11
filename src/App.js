@@ -19,13 +19,13 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<RootComponent />} /> {/* Redirect from '/' to '/home' */}
+        <Route path="/" element={<RootComponent />} /> 
         <Route path="/home" element={<Home />} />
         <Route path="/cap-portal" element={<CAPortal />} />
         <Route path="/events" element={<EventPage />} />
         <Route path="/faqs" element={<FaqPage />} />
         <Route path="/contact-us" element={<ContactusPage />} />
-        <Route path="*" element={<Navigate to="/home" />} /> {/* Redirect all unknown routes to '/home' */}
+        <Route path="*" element={<Navigate to="/home" />} />
       </Routes>
     </Router>
   );
