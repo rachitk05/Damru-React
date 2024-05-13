@@ -6,15 +6,6 @@ import FaqPage from "./faqs/faqPage";
 import ContactusPage from './contactus/contactusPage';
 import Home from './landingpage/home';
 
-function RootComponent() {
-  useEffect(() => {
-    // Redirect to '/home' when the component mounts
-    window.location.href = "/home";
-  }, []);
-
-  return null; // Since this is just for redirecting, we don't need to render anything
-}
-
 function App() {
   return (
     <Router>
